@@ -6,7 +6,7 @@
     "tag": false
   },
   "npm": {
-    "publish": false
+    "publish": true
   },
   "github": {
     "release": false
