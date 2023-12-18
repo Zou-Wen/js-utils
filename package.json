@@ -1,6 +1,6 @@
 {
   "name": "@zou_wen/js-utils",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "a js utils library",
   "main": "index.js",
   "scripts": {

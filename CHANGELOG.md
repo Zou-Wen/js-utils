@@ -1,5 +1,13 @@
 
 
+# 0.6.0 (2023-12-18)
+
+
+### Bug Fixes
+
+* 🐛 change log bug ([39e4f55](https://github.com/Zou-Wen/js-utils/commit/39e4f55651ed24087055c46aca9b1df08053adda))
+
+
 # 0.5.0 (2023-12-18)
 
 
