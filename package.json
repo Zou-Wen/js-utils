@@ -1,0 +1,17 @@
+{
+  "name": "js-utils",
+  "version": "0.0.1",
+  "description": "a js utils library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["utils"],
+  "author": "zouwen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zou-Wen/js-utils"
+  },
+  "homepage": "https://github.com/Zou-Wen/js-utils"
+}
