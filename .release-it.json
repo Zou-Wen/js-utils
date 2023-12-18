@@ -1,0 +1,14 @@
+
+{
+    "git": {
+        "commitMessage": "chore: release v${version}",
+        "push": true,
+        "commit": true
+    },
+    "npm": {
+      "publish": false
+    },
+    "hooks": {
+      "after:bump": "echo 更新版本成功"
+    }
+  }

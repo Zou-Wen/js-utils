@@ -42,3 +42,12 @@ export function checkImg(url) {
         };
     });
 }
+
+/**
+ * 获取文件后缀
+ * @param {string} filename 文件名称
+ * @returns {string} 文件后缀
+ */
+export function getFileSuffix(filename = '') {
+    return filename.slice(filename.lastIndexOf('.') + 1);
+}
