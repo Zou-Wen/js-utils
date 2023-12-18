@@ -16,10 +16,20 @@
   },
   "plugins": {
     "@release-it/conventional-changelog": {
-      "preset": {
-        "name": "angular"
-      },
-      "infile": "CHANGELOG.md"
+      "preset": "angular",
+      "infile": "CHANGELOG.md",
+      "releaseRules": [
+        {"type": "build", "release": "patch"},
+        {"type": "ci", "release": "patch"},
+        {"type": "docs", "release": "patch"},
+        {"type": "style", "release": "patch"},
+        {"type": "refactor", "release": "patch"},
+        {"type": "test", "release": "patch"},
+        {"type": "chore", "release": "patch"},
+        {"type": "revert", "release": "patch"},
+        {"type": "feat", "release": "minor"},
+        {"type": "fix", "release": "patch"}
+      ]
     }
   }
 }
