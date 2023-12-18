@@ -3,10 +3,14 @@
     "git": {
         "commitMessage": "chore: release v${version}",
         "push": true,
-        "commit": true
+        "commit": true,
+        "tag": false
     },
     "npm": {
       "publish": false
+    },
+    "github": {
+        "release": false
     },
     "hooks": {
       "after:bump": "echo 更新版本成功"
